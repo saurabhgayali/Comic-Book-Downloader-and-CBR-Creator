@@ -47,13 +47,21 @@ delete_temp_folder = True
 
 You can customize these settings by editing the settings.ini file manually.
 
+## Installing Dependencies
+
+Before running the script, ensure you have the required dependencies installed. You can install them using the following command:
+```bash
+pip install -r requirements.txt
+```
+
+
 ## Running the Script
 
 To run the script:
 
-* Ensure Python is installed on your system.
-* Install required packages by running: pip install requests beautifulsoup4.
-* Run the script: python main.py.
+1. Ensure Python is installed on your system.
+2. Install required packages by running: pip install -r requirements.txt.
+3. Run the script: python main.py.
 
 The script will download files based on the specified settings and provide an operation summary at the end.
 
